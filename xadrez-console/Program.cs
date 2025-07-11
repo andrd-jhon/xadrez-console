@@ -7,11 +7,10 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Posicao p;
+            Tabuleiro tabuleiro;
 
-            p = new Posicao(3, 4);
-
-            Console.WriteLine($"Posição: {p}");
+            tabuleiro = new Tabuleiro(8,8);
+            Console.ReadLine();
         }
     }
 }
